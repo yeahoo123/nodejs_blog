@@ -1,9 +1,16 @@
 {
-  "name": "Nodej_blog",
-  "version": "1.0.0",
-  "description": "First project with nodejs",
-  "main": "index.js",
-  "repository": "git@github.com:yeahoo123/nodejs_blog.git",
-  "author": "LKS",
-  "license": "MIT"
+    "name": "Nodej_blog",
+    "version": "1.0.0",
+    "description": "First project with nodejs",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon --inspect index.js"
+    },
+    "repository": "git@github.com:yeahoo123/nodejs_blog.git",
+    "author": "LKS",
+    "license": "MIT",
+    "dependencies": {
+        "express": "^4.17.1",
+        "nodemon": "^2.0.7"
+    }
 }
